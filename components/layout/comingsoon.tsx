@@ -3,7 +3,6 @@
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import { Facebook, Twitter, Instagram } from "lucide-react";
 import CountdownTimer from "./countdown";
 
 export default function ComingSoon() {
@@ -37,29 +36,6 @@ export default function ComingSoon() {
           Sneak Peek
         </Link>
       </p>
-      <div className="flex space-x-4 mt-8">
-        <Link
-          href="#"
-          className="text-gray-900 dark:text-gray-100"
-          prefetch={false}
-        >
-          <Facebook className="h-6 w-6" />
-        </Link>
-        <Link
-          href="#"
-          className="text-gray-900 dark:text-gray-100"
-          prefetch={false}
-        >
-          <Twitter className="h-6 w-6" />
-        </Link>
-        <Link
-          href="#"
-          className="text-gray-900 dark:text-gray-100"
-          prefetch={false}
-        >
-          <Instagram className="h-6 w-6" />
-        </Link>
-      </div>
     </div>
   );
 }
