@@ -32,27 +32,27 @@ const CountdownTimer = () => {
   return (
     <div className="flex space-x-4 mb-8">
       <div>
-        <div className="text-4xl font-bold text-gray-900 dark:text-gray-100">
-          {timeLeft.days || "0"}
-        </div>
+        <p className="text-4xl font-bold text-gray-900 dark:text-gray-100">
+          {timeLeft?.days || "0"}
+        </p>
         <div className="text-gray-500 dark:text-gray-400">Days</div>
       </div>
       <div>
-        <div className="text-4xl font-bold text-gray-900 dark:text-gray-100">
-          {timeLeft.hours || "00"}
-        </div>
+        <p className="text-4xl font-bold text-gray-900 dark:text-gray-100">
+          {timeLeft?.hours || "00"}
+        </p>
         <div className="text-gray-500 dark:text-gray-400">Hours</div>
       </div>
       <div>
-        <div className="text-4xl font-bold text-gray-900 dark:text-gray-100">
-          {timeLeft.minutes || "00"}
-        </div>
+        <p className="text-4xl font-bold text-gray-900 dark:text-gray-100">
+          {timeLeft?.minutes || "00"}
+        </p>
         <div className="text-gray-500 dark:text-gray-400">Minutes</div>
       </div>
       <div>
-        <div className="text-4xl font-bold text-gray-900 dark:text-gray-100">
-          {timeLeft.seconds || "00"}
-        </div>
+        <p className="text-4xl font-bold text-gray-900 dark:text-gray-100">
+          {timeLeft?.seconds || "00"}
+        </p>
         <div className="text-gray-500 dark:text-gray-400">Seconds</div>
       </div>
     </div>
