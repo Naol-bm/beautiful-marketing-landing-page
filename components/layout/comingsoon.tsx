@@ -30,12 +30,12 @@ export default function ComingSoon() {
       </form>
       <p className="text-sm text-gray-500 dark:text-gray-400 mt-4 flex gap-2">
         Subscribe to get notified when we launch.
-        <Link
+{/*         <Link
           href="/main"
           className="text-transparent bg-gradient-to-r from-[#D247BF] to-primary bg-clip-text"
         >
           Sneak Peek
-        </Link>
+        </Link> */}
       </p>
       <div className="flex space-x-4 mt-8">
         <Link
